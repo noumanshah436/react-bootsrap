@@ -4,6 +4,7 @@ import { Container, Navbar } from "react-bootstrap";
 // import Counter from "./components/Counter";
 // import Register from "./components/Register";
 // import UserList from "./components/UserList";
+import BlogApp from "./components/BlogApp";
 
 
 let App = () => {
@@ -14,6 +15,7 @@ let App = () => {
           <Navbar.Brand href="/">React Bootstrap</Navbar.Brand>
         </Container>
       </Navbar>
+      <BlogApp/> 
 
       {/* <Counter /> */}
       {/* <Register /> */}
